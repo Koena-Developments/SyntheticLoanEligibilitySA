@@ -76,7 +76,7 @@ def load_data(df):
 
     session.commit()
 
-df = pd.read_csv('synthetic_financial_data.csv')  
+df = pd.read_csv('transformed_financial_data.csv')  
 load_data(df)
 
 session.close()

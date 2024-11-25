@@ -32,6 +32,9 @@ def generate_sa_name():
 def generate_sa_address():
     return f"{random.choice(south_african_cities)}, South Africa"
 
+
+# need to change the fact that the loan_repayment_months are randomly generated, it should depend the amount of the loan and the amount that the loan_requester wants to pay 
+#  consider 
 def generate_data():
     """
     Generates synthetic financial data and returns it as a pandas DataFrame.
