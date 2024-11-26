@@ -32,6 +32,7 @@ class AnalysisResult(Base):
     household_id = Column(Integer)
     disposable_income = Column(Integer)
     debt_to_income_ratio = Column(Float)
+    loan_status  = Column(String)
 
 engine = create_engine('sqlite:///HouseHold_data.db', echo=True)
 
@@ -70,7 +71,8 @@ def load_data(df):
         analysis_result = AnalysisResult(
             household_id=row['household_id'],
             disposable_income=disposable_income,
-            debt_to_income_ratio=debt_to_income_ratio
+            debt_to_income_ratio=debt_to_income_ratio,
+            loan_status=row['loan_approval_status'],
         )
         session.add(analysis_result)
 
