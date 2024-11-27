@@ -2,19 +2,24 @@ from faker import Faker
 import pandas as pd
 import random
 
+
 first_names = [
-    'Thabo', 'Sipho', 'Nokuthula', 'Nomvula', 'Jacob', 'Nelson', 
+    'Thabo', 'Sipho', 'Nokuthula', 'Nomvula', 'Jacob', 'Nelson',
     'Pieter', 'Johannes', 'Elize', 'Leanne', 'Abongile', 'Zanele'
 ]
 
 last_names = [
-    'Dlamini', 'Mokoena', 'Nkosi', 'Botha', 'van der Merwe', 
+    'Dlamini', 'Mokoena', 'Nkosi', 'Botha', 'van der Merwe',
     'Zulu', 'Naidoo', 'Pillay', 'Mahlangu', 'Masuku', 'Sithole'
 ]
+
 fake = Faker('en')
 south_african_cities = ['Johannesburg', 'Cape Town', 'Durban', 'Pretoria', 'Port Elizabeth', 'Bloemfontein', 'Polokwane']
 
 def generate_sa_id():
+    """
+    Generate a synthetic South African ID number.
+    """
     birth_date = f"{random.randint(79, 99):02}{random.randint(1, 12):02}{random.randint(1, 31):02}"
     random_digits = f"{random.randint(0, 9999):04}"
     citizenship = random.choice(['0', '1'])
@@ -22,19 +27,25 @@ def generate_sa_id():
     return f"{birth_date}{random_digits}{citizenship}{gender}"
 
 def generate_sa_phone_number():
+    """
+    Generate a synthetic South African phone number.
+    """
     return f"+27 {random.randint(100000000, 999999999)}"
 
 def generate_sa_name():
+    """
+    Generate a synthetic South African full name.
+    """
     first_name = random.choice(first_names)
     last_name = random.choice(last_names)
     return f"{first_name} {last_name}"
 
 def generate_sa_address():
+    """
+    Generate a synthetic South African address.
+    """
     return f"{random.choice(south_african_cities)}, South Africa"
 
-
-# need to change the fact that the loan_repayment_months are randomly generated, it should depend the amount of the loan and the amount that the loan_requester wants to pay 
-#  consider 
 def generate_data():
     """
     Generates synthetic financial data and returns it as a pandas DataFrame.
@@ -55,8 +66,6 @@ def generate_data():
             'expenses': random.randint(2000, 40000),
             'job_status': 'Formally Employed',
             'credit_score': random.randint(300, 850),
-            'loan_amount_requested': random.randint(1000, 50000),
-            'loan_repayment_months': random.choice([6, 12, 24, 36]),
             'sa_id': generate_sa_id(),
             'phone_number': generate_sa_phone_number()
         }

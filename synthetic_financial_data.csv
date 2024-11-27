@@ -1,133 +1,133 @@
-household_id,full_name,age,gender,location,address,industry,income,expenses,job_status,credit_score,loan_amount_requested,loan_repayment_months,sa_id,phone_number
-1,Nomvula Dlamini,48,Female,Urban,"Durban, South Africa",Private,14832,5861,Formally Employed,723,35156,6,820113522210,+27 307618068
-2,Abongile Dlamini,38,Male,Urban,"Port Elizabeth, South Africa",Mining,19319,30167,Formally Employed,463,37778,6,901219853900,+27 235859243
-3,Zanele Masuku,25,Male,Rural,"Cape Town, South Africa",Mining,13255,28642,Formally Employed,464,34923,6,851023404500,+27 118807791
-4,Jacob Nkosi,28,Female,Rural,"Cape Town, South Africa",Private,42516,25661,Formally Employed,656,15833,12,810623320810,+27 921587356
-6,Elize Masuku,29,Male,Rural,"Port Elizabeth, South Africa",Private,8268,30644,Formally Employed,670,36638,24,921013398611,+27 319790812
-7,Sipho Pillay,45,Female,Urban,"Polokwane, South Africa",Private,11601,28460,Formally Employed,841,26203,24,960920302001,+27 846508593
-8,Thabo Nkosi,54,Female,Rural,"Port Elizabeth, South Africa",Private,24615,38698,Formally Employed,541,32686,6,810625970510,+27 529835049
-9,Zanele Dlamini,27,Male,Urban,"Polokwane, South Africa",Mining,29136,9104,Formally Employed,557,46495,24,920331664101,+27 881390667
-10,Zanele Sithole,60,Female,Urban,"Cape Town, South Africa",Mining,34244,26220,Formally Employed,488,24792,12,960209883201,+27 731368653
-11,Zanele van der Merwe,35,Female,Rural,"Port Elizabeth, South Africa",Private,36303,30267,Formally Employed,726,2269,36,900828254501,+27 520269992
-12,Leanne Mokoena,37,Male,Urban,"Polokwane, South Africa",Government,9509,15076,Formally Employed,340,5063,12,900413547401,+27 638832143
-13,Elize Pillay,24,Female,Urban,"Cape Town, South Africa",Private,39305,28918,Formally Employed,503,13021,24,910721554900,+27 590332502
-14,Abongile Pillay,48,Female,Rural,"Port Elizabeth, South Africa",Mining,35382,17432,Formally Employed,623,40486,12,791116334511,+27 952294271
-15,Leanne Sithole,22,Female,Urban,"Durban, South Africa",Government,46153,35647,Formally Employed,816,28838,6,860308582210,+27 628728692
-17,Nokuthula Naidoo,54,Female,Rural,"Pretoria, South Africa",Government,45972,30527,Formally Employed,847,15192,6,910811980000,+27 544086283
-18,Johannes Pillay,56,Female,Urban,"Durban, South Africa",Mining,15396,28118,Formally Employed,472,24042,24,821205895611,+27 510475339
-19,Pieter Pillay,48,Female,Urban,"Johannesburg, South Africa",Mining,15601,22200,Formally Employed,373,19886,36,910404268211,+27 931032055
-20,Zanele Nkosi,24,Male,Rural,"Cape Town, South Africa",Mining,26269,27444,Formally Employed,823,2265,24,951206854411,+27 329090710
-21,Nelson Masuku,60,Male,Urban,"Johannesburg, South Africa",Private,30675,19904,Formally Employed,657,44083,36,870810510501,+27 243770267
-22,Jacob Masuku,34,Male,Rural,"Polokwane, South Africa",Private,44785,8458,Formally Employed,565,45458,36,850819790600,+27 609730073
-23,Elize Sithole,41,Male,Rural,"Johannesburg, South Africa",Government,37870,30869,Formally Employed,320,39028,6,831220957410,+27 956708937
-24,Zanele Mahlangu,59,Male,Urban,"Port Elizabeth, South Africa",Private,14849,23674,Formally Employed,558,21660,36,980522839000,+27 873929770
-26,Thabo Masuku,55,Female,Urban,"Cape Town, South Africa",Government,10515,30043,Formally Employed,530,26403,24,851003331010,+27 323327397
-27,Leanne van der Merwe,31,Male,Urban,"Port Elizabeth, South Africa",Mining,5123,22573,Formally Employed,789,45342,12,981118297810,+27 484289862
-28,Sipho Dlamini,48,Male,Urban,"Durban, South Africa",Private,5446,31667,Formally Employed,819,23995,6,850830319000,+27 757241758
-29,Pieter Dlamini,30,Female,Rural,"Port Elizabeth, South Africa",Mining,33100,3167,Formally Employed,831,36090,6,900922690611,+27 659278917
-31,Zanele Botha,52,Male,Urban,"Pretoria, South Africa",Government,26372,38047,Formally Employed,422,41586,24,940801410300,+27 106360378
-32,Jacob Pillay,44,Male,Rural,"Durban, South Africa",Government,3736,34098,Formally Employed,559,40434,12,880118065710,+27 319371724
-33,Nelson Botha,29,Female,Rural,"Bloemfontein, South Africa",Government,38040,31181,Formally Employed,632,47903,24,790414887300,+27 837802632
-34,Sipho Mokoena,24,Female,Urban,"Durban, South Africa",Government,24371,19983,Formally Employed,450,41706,6,981224306400,+27 904584744
-35,Abongile Zulu,42,Male,Urban,"Durban, South Africa",Private,45428,3774,Formally Employed,365,23878,24,840727531011,+27 288989635
-37,Thabo Mokoena,39,Female,Urban,"Durban, South Africa",Mining,31493,24785,Formally Employed,694,39038,24,980926996510,+27 478360917
-38,Johannes Nkosi,22,Female,Rural,"Pretoria, South Africa",Mining,34600,25105,Formally Employed,738,49789,12,851122583810,+27 277490523
-39,Nomvula Mokoena,35,Male,Rural,"Cape Town, South Africa",Private,4160,9126,Formally Employed,692,23853,6,990608511501,+27 683762615
-40,Nelson Zulu,48,Female,Rural,"Pretoria, South Africa",Government,6197,26886,Formally Employed,757,43837,6,900123575000,+27 288277683
-41,Nomvula Masuku,33,Female,Urban,"Bloemfontein, South Africa",Private,10270,10108,Formally Employed,712,48902,12,890528329401,+27 711996025
-42,Leanne Dlamini,39,Male,Urban,"Pretoria, South Africa",Private,44051,2140,Formally Employed,609,20757,24,850831424810,+27 230951155
-43,Leanne Pillay,27,Male,Rural,"Port Elizabeth, South Africa",Private,38310,36207,Formally Employed,482,16331,6,790319056200,+27 197446309
-44,Leanne Masuku,33,Male,Urban,"Durban, South Africa",Government,31908,17057,Formally Employed,689,2785,6,800509293811,+27 519450607
-46,Nomvula Nkosi,44,Male,Rural,"Durban, South Africa",Mining,37864,19148,Formally Employed,810,16384,6,830308655510,+27 380915299
-47,Leanne Nkosi,49,Male,Urban,"Johannesburg, South Africa",Government,16867,23390,Formally Employed,320,23474,12,841029173710,+27 427748463
-51,Elize Naidoo,52,Female,Urban,"Cape Town, South Africa",Private,19614,31918,Formally Employed,452,33059,24,791218989611,+27 349963650
-52,Pieter Sithole,40,Male,Urban,"Polokwane, South Africa",Private,22906,20226,Formally Employed,746,37226,12,920517994911,+27 132522975
-53,Johannes Botha,37,Female,Urban,"Cape Town, South Africa",Mining,17515,30594,Formally Employed,498,5700,24,941110033410,+27 796192133
-55,Nelson Mahlangu,47,Female,Urban,"Cape Town, South Africa",Mining,26689,4346,Formally Employed,772,19942,12,860821819400,+27 704871287
-56,Nokuthula Masuku,29,Female,Urban,"Cape Town, South Africa",Government,31252,23390,Formally Employed,572,4078,12,980415196001,+27 624425080
-58,Abongile van der Merwe,43,Male,Urban,"Durban, South Africa",Government,28769,17630,Formally Employed,320,41745,36,900612229301,+27 741696483
-60,Nokuthula Sithole,47,Female,Urban,"Pretoria, South Africa",Mining,34500,25681,Formally Employed,333,15923,36,980512637810,+27 544164452
-61,Jacob Sithole,36,Female,Urban,"Johannesburg, South Africa",Government,35522,14206,Formally Employed,565,8628,6,971214944400,+27 341103867
-62,Johannes van der Merwe,23,Female,Rural,"Bloemfontein, South Africa",Government,36175,3126,Formally Employed,840,16252,36,980404752800,+27 370621129
-63,Johannes Zulu,48,Female,Rural,"Polokwane, South Africa",Private,18471,32788,Formally Employed,391,42549,12,930810455511,+27 111072115
-64,Sipho Sithole,49,Female,Rural,"Bloemfontein, South Africa",Mining,34317,26420,Formally Employed,707,14224,36,851204602710,+27 606442483
-65,Nokuthula Nkosi,25,Female,Urban,"Cape Town, South Africa",Mining,18407,11855,Formally Employed,418,12553,6,831028152611,+27 958334462
-66,Zanele Zulu,21,Female,Rural,"Durban, South Africa",Private,5031,11529,Formally Employed,388,18475,24,881031248601,+27 942199686
-67,Thabo Zulu,46,Female,Rural,"Bloemfontein, South Africa",Private,6822,27845,Formally Employed,611,5689,36,970204032111,+27 493629288
-69,Nomvula Naidoo,58,Female,Urban,"Durban, South Africa",Private,25567,35909,Formally Employed,457,41369,24,850314505410,+27 587850372
-70,Thabo Naidoo,54,Female,Rural,"Polokwane, South Africa",Government,21483,37657,Formally Employed,341,37621,12,921122345201,+27 667748925
-73,Nomvula Botha,44,Male,Urban,"Durban, South Africa",Mining,4071,33954,Formally Employed,833,46722,24,930226980510,+27 487908585
-76,Pieter Masuku,28,Male,Urban,"Johannesburg, South Africa",Private,11895,17959,Formally Employed,325,13836,6,800207686711,+27 817509803
-77,Thabo Botha,40,Female,Rural,"Cape Town, South Africa",Private,30345,9049,Formally Employed,305,15514,24,840124517310,+27 103659398
-82,Abongile Naidoo,45,Male,Rural,"Johannesburg, South Africa",Government,38006,34997,Formally Employed,729,45815,12,951126065900,+27 816169253
-83,Nokuthula Pillay,53,Male,Rural,"Pretoria, South Africa",Private,19946,25816,Formally Employed,611,41450,24,790610873011,+27 694710026
-84,Nomvula van der Merwe,39,Female,Rural,"Pretoria, South Africa",Private,33486,6003,Formally Employed,662,14683,6,921206650211,+27 176213236
-85,Zanele Mokoena,27,Male,Urban,"Pretoria, South Africa",Private,40559,24457,Formally Employed,630,36105,36,890502903911,+27 112082686
-86,Zanele Pillay,60,Male,Rural,"Bloemfontein, South Africa",Mining,6454,10377,Formally Employed,388,31432,12,821224182810,+27 589544575
-88,Jacob Botha,30,Male,Urban,"Polokwane, South Africa",Mining,27027,13001,Formally Employed,681,47078,12,970605741601,+27 874869967
-90,Zanele Naidoo,22,Female,Urban,"Cape Town, South Africa",Private,37212,2396,Formally Employed,310,24486,36,840705305301,+27 513884158
-91,Sipho Masuku,22,Female,Rural,"Bloemfontein, South Africa",Mining,20666,26063,Formally Employed,799,14675,12,991016387701,+27 369166672
-93,Sipho Zulu,38,Female,Urban,"Pretoria, South Africa",Private,18756,38343,Formally Employed,829,30933,6,931025865010,+27 481850864
-98,Pieter Botha,21,Male,Rural,"Johannesburg, South Africa",Private,13548,20273,Formally Employed,627,15394,24,920422120310,+27 601953968
-101,Jacob Zulu,47,Female,Urban,"Polokwane, South Africa",Government,41925,19889,Formally Employed,693,30026,36,961110228700,+27 368658864
-102,Pieter van der Merwe,23,Male,Rural,"Pretoria, South Africa",Mining,8874,38137,Formally Employed,301,2413,24,861016510611,+27 826764074
-103,Elize Nkosi,27,Female,Rural,"Bloemfontein, South Africa",Government,44368,11155,Formally Employed,656,38348,24,881119127210,+27 679016332
-107,Johannes Dlamini,20,Male,Urban,"Polokwane, South Africa",Government,13410,28707,Formally Employed,567,33437,24,830830714501,+27 965871043
-109,Pieter Mahlangu,33,Male,Urban,"Durban, South Africa",Private,33056,38771,Formally Employed,698,14792,12,920525386001,+27 512879769
-114,Elize Mahlangu,42,Male,Rural,"Durban, South Africa",Government,26743,37652,Formally Employed,706,14326,6,810421455810,+27 817974363
-116,Nomvula Zulu,20,Female,Rural,"Port Elizabeth, South Africa",Private,12551,17136,Formally Employed,337,19991,6,960811961800,+27 421763516
-117,Abongile Nkosi,44,Male,Urban,"Durban, South Africa",Government,28212,32716,Formally Employed,839,31819,12,890221009911,+27 560803629
-120,Sipho Mahlangu,52,Male,Urban,"Polokwane, South Africa",Private,4292,6557,Formally Employed,467,39073,12,940123423400,+27 189665549
-122,Jacob Naidoo,24,Female,Rural,"Cape Town, South Africa",Mining,16769,39559,Formally Employed,685,14705,24,940122201900,+27 608584098
-124,Sipho Nkosi,29,Female,Urban,"Port Elizabeth, South Africa",Mining,26626,15271,Formally Employed,611,23320,6,900407992410,+27 440431388
-125,Jacob Mahlangu,50,Male,Rural,"Pretoria, South Africa",Mining,21218,39195,Formally Employed,794,21400,36,970613608811,+27 687672912
-131,Nomvula Pillay,55,Female,Urban,"Port Elizabeth, South Africa",Mining,11356,2070,Formally Employed,716,36337,24,940513564411,+27 787691932
-132,Abongile Masuku,34,Female,Rural,"Polokwane, South Africa",Mining,44847,37860,Formally Employed,610,1498,12,941030655510,+27 778439617
-135,Leanne Botha,58,Female,Rural,"Durban, South Africa",Private,31291,38268,Formally Employed,647,41794,6,960119474900,+27 467248543
-136,Nelson Nkosi,37,Male,Urban,"Johannesburg, South Africa",Government,11271,13209,Formally Employed,772,43678,12,850220963101,+27 269813739
-142,Leanne Naidoo,22,Female,Rural,"Bloemfontein, South Africa",Private,34855,27073,Formally Employed,667,48130,12,880127073100,+27 673213568
-144,Elize Dlamini,59,Male,Rural,"Pretoria, South Africa",Government,21051,2783,Formally Employed,388,19406,12,960824613911,+27 281670133
-145,Nokuthula Mahlangu,50,Female,Rural,"Durban, South Africa",Mining,12693,6033,Formally Employed,731,23846,6,991018756701,+27 574436853
-149,Nelson Pillay,30,Female,Rural,"Cape Town, South Africa",Government,17507,30962,Formally Employed,844,2393,24,910930650710,+27 326092478
-150,Elize Botha,36,Male,Urban,"Cape Town, South Africa",Private,41981,7725,Formally Employed,738,47065,12,991103195810,+27 138319887
-151,Thabo Sithole,44,Female,Urban,"Bloemfontein, South Africa",Private,37531,17892,Formally Employed,366,35301,12,790222571511,+27 618159022
-152,Jacob Mokoena,46,Female,Urban,"Johannesburg, South Africa",Government,11997,34208,Formally Employed,764,27503,6,841227929701,+27 966825790
-154,Nelson Mokoena,35,Male,Rural,"Johannesburg, South Africa",Private,27458,16000,Formally Employed,642,42305,6,840128485710,+27 617005346
-155,Johannes Mahlangu,41,Female,Urban,"Port Elizabeth, South Africa",Mining,14792,14495,Formally Employed,579,20491,12,961231319510,+27 788235518
-161,Thabo Dlamini,20,Female,Urban,"Johannesburg, South Africa",Private,12556,24299,Formally Employed,696,48333,36,961120034911,+27 800736871
-163,Abongile Mahlangu,51,Male,Urban,"Port Elizabeth, South Africa",Mining,49708,14243,Formally Employed,646,49376,6,831101013610,+27 591402024
-165,Pieter Zulu,37,Male,Rural,"Durban, South Africa",Government,6451,25874,Formally Employed,596,21712,12,790629907101,+27 915895807
-166,Abongile Mokoena,58,Female,Urban,"Port Elizabeth, South Africa",Government,22886,13873,Formally Employed,796,21073,6,860803161601,+27 945408800
-173,Sipho Naidoo,21,Male,Urban,"Pretoria, South Africa",Government,11514,38319,Formally Employed,578,23068,6,990211572811,+27 817092345
-181,Pieter Nkosi,36,Male,Rural,"Durban, South Africa",Government,29937,25801,Formally Employed,519,40766,24,790824507810,+27 726323083
-183,Elize van der Merwe,38,Female,Urban,"Johannesburg, South Africa",Government,28264,13368,Formally Employed,399,23343,6,981226154011,+27 784433801
-185,Nelson Sithole,54,Female,Rural,"Durban, South Africa",Government,47030,13936,Formally Employed,562,19676,6,821120420801,+27 392716124
-190,Abongile Botha,45,Male,Urban,"Polokwane, South Africa",Government,49002,5411,Formally Employed,843,21227,36,920205425401,+27 197114361
-207,Sipho Botha,28,Male,Urban,"Port Elizabeth, South Africa",Government,36633,13360,Formally Employed,512,16335,12,800228163510,+27 545792191
-210,Pieter Mokoena,37,Female,Rural,"Polokwane, South Africa",Private,5217,6019,Formally Employed,808,8304,24,970131117800,+27 330522892
-217,Nomvula Sithole,35,Female,Rural,"Bloemfontein, South Africa",Mining,30430,9696,Formally Employed,395,15495,36,920405207711,+27 829433388
-219,Nelson Dlamini,45,Male,Urban,"Cape Town, South Africa",Mining,3525,34443,Formally Employed,634,26226,36,920712999911,+27 336077396
-221,Thabo Pillay,48,Male,Urban,"Pretoria, South Africa",Government,25331,8876,Formally Employed,301,25785,12,960828967200,+27 264064803
-223,Nokuthula Mokoena,29,Female,Rural,"Cape Town, South Africa",Private,20903,25878,Formally Employed,576,3759,12,971215534700,+27 906775902
-224,Nelson Naidoo,57,Female,Rural,"Durban, South Africa",Mining,21250,5344,Formally Employed,595,27313,12,970830873211,+27 965163854
-229,Leanne Mahlangu,22,Male,Rural,"Bloemfontein, South Africa",Private,13852,33999,Formally Employed,548,4652,6,970623966201,+27 363953925
-247,Pieter Naidoo,36,Male,Rural,"Polokwane, South Africa",Private,21432,28535,Formally Employed,626,45338,24,921110051501,+27 390411393
-253,Nokuthula Botha,50,Male,Urban,"Polokwane, South Africa",Government,33054,37869,Formally Employed,410,34807,12,870718168400,+27 999630708
-257,Johannes Masuku,21,Female,Urban,"Durban, South Africa",Private,21377,22199,Formally Employed,828,29836,12,800208338410,+27 504968126
-268,Nokuthula Dlamini,24,Male,Urban,"Bloemfontein, South Africa",Private,10214,8974,Formally Employed,402,1325,24,901013733710,+27 885043354
-279,Nokuthula Zulu,46,Male,Urban,"Cape Town, South Africa",Private,24418,32855,Formally Employed,510,24606,12,891126686711,+27 777758342
-286,Nomvula Mahlangu,52,Female,Urban,"Pretoria, South Africa",Government,16369,2026,Formally Employed,466,47493,24,921025885701,+27 548330078
-302,Johannes Naidoo,46,Male,Rural,"Cape Town, South Africa",Private,35180,16495,Formally Employed,793,1468,24,911020449010,+27 438017807
-316,Elize Zulu,23,Female,Urban,"Durban, South Africa",Private,30008,23046,Formally Employed,465,3587,36,850329262801,+27 231049801
-339,Jacob van der Merwe,46,Male,Rural,"Bloemfontein, South Africa",Private,48844,33153,Formally Employed,487,18017,6,881006974501,+27 664904595
-342,Thabo Mahlangu,30,Female,Urban,"Pretoria, South Africa",Private,49926,23798,Formally Employed,438,3438,6,810820352911,+27 862860523
-346,Leanne Zulu,53,Female,Urban,"Durban, South Africa",Private,34298,27588,Formally Employed,475,5641,24,790819242200,+27 789633352
-353,Abongile Sithole,48,Male,Rural,"Johannesburg, South Africa",Government,49505,7317,Formally Employed,698,1639,36,990208675601,+27 698183419
-365,Nelson van der Merwe,50,Female,Urban,"Bloemfontein, South Africa",Mining,36239,27830,Formally Employed,400,28904,6,991209439701,+27 545052789
-366,Johannes Mokoena,43,Female,Urban,"Bloemfontein, South Africa",Private,43544,29099,Formally Employed,724,7772,24,830126894411,+27 407372664
-372,Nokuthula van der Merwe,41,Female,Rural,"Port Elizabeth, South Africa",Mining,49144,6788,Formally Employed,449,10482,6,920519377300,+27 240833546
-395,Thabo van der Merwe,34,Female,Urban,"Pretoria, South Africa",Private,46694,24435,Formally Employed,390,16126,36,820613568801,+27 272821077
-402,Elize Mokoena,38,Female,Rural,"Cape Town, South Africa",Mining,34623,13530,Formally Employed,549,41208,6,870909673610,+27 499694281
-432,Sipho van der Merwe,57,Male,Rural,"Cape Town, South Africa",Mining,30413,35482,Formally Employed,811,37752,24,960206493401,+27 899561849
-465,Johannes Sithole,44,Male,Urban,"Polokwane, South Africa",Private,31611,9662,Formally Employed,849,39276,36,950721815311,+27 721154692
-809,Jacob Dlamini,49,Male,Urban,"Port Elizabeth, South Africa",Mining,4206,18132,Formally Employed,572,23955,12,840504445100,+27 691231024
+household_id,full_name,age,gender,location,address,industry,income,expenses,job_status,credit_score,sa_id,phone_number
+1,Pieter Naidoo,22,Female,Urban,"Bloemfontein, South Africa",Government,39556,19030,Formally Employed,597,881121791401,+27 216944989
+2,Nomvula Mokoena,25,Male,Urban,"Port Elizabeth, South Africa",Government,34912,36089,Formally Employed,331,830707059410,+27 473975660
+3,Thabo Sithole,51,Male,Rural,"Bloemfontein, South Africa",Private,49883,15843,Formally Employed,792,990820683801,+27 683026027
+4,Nokuthula Dlamini,60,Female,Urban,"Pretoria, South Africa",Private,18442,5060,Formally Employed,747,970614848510,+27 869420599
+5,Sipho Nkosi,20,Male,Urban,"Polokwane, South Africa",Mining,21110,23561,Formally Employed,731,921210527410,+27 474582834
+6,Nomvula Mahlangu,59,Female,Urban,"Pretoria, South Africa",Mining,44390,34565,Formally Employed,539,990631625911,+27 300795417
+7,Jacob Zulu,22,Female,Urban,"Johannesburg, South Africa",Government,47420,8176,Formally Employed,357,950410535600,+27 643918827
+8,Leanne van der Merwe,40,Male,Rural,"Bloemfontein, South Africa",Private,9895,32206,Formally Employed,337,920204794600,+27 971221285
+9,Johannes van der Merwe,43,Male,Urban,"Port Elizabeth, South Africa",Private,20509,34339,Formally Employed,325,970303961011,+27 362926409
+10,Pieter Nkosi,46,Female,Urban,"Port Elizabeth, South Africa",Government,14562,13194,Formally Employed,736,900204867001,+27 385068654
+11,Zanele Mokoena,60,Male,Rural,"Pretoria, South Africa",Government,12700,26495,Formally Employed,329,990611110300,+27 294999595
+12,Jacob Botha,36,Female,Rural,"Cape Town, South Africa",Private,15427,2399,Formally Employed,666,980521725700,+27 511032573
+13,Zanele Botha,27,Male,Rural,"Durban, South Africa",Government,40824,19107,Formally Employed,333,800215766300,+27 988046268
+14,Leanne Mahlangu,44,Female,Urban,"Port Elizabeth, South Africa",Private,34782,23799,Formally Employed,708,820723886811,+27 841705868
+16,Sipho Naidoo,58,Female,Urban,"Johannesburg, South Africa",Private,46793,12812,Formally Employed,764,881230752700,+27 371951254
+17,Nomvula Sithole,40,Male,Urban,"Bloemfontein, South Africa",Mining,26372,32279,Formally Employed,311,960920722011,+27 670131104
+18,Johannes Mahlangu,53,Female,Rural,"Bloemfontein, South Africa",Private,3044,24280,Formally Employed,501,881109987600,+27 419217991
+19,Pieter Botha,33,Female,Urban,"Cape Town, South Africa",Private,13811,36724,Formally Employed,590,810926242900,+27 368586709
+20,Zanele Naidoo,29,Male,Urban,"Cape Town, South Africa",Mining,24314,15142,Formally Employed,422,881004899701,+27 381248623
+21,Elize Masuku,20,Male,Urban,"Cape Town, South Africa",Private,22807,22580,Formally Employed,547,800911879511,+27 488398651
+22,Nokuthula Botha,28,Female,Rural,"Durban, South Africa",Private,18564,20360,Formally Employed,543,860331089711,+27 755120631
+23,Jacob Masuku,47,Male,Rural,"Polokwane, South Africa",Mining,28071,39985,Formally Employed,422,850421894600,+27 873442623
+24,Nelson Naidoo,35,Female,Rural,"Bloemfontein, South Africa",Mining,14138,38728,Formally Employed,426,941213790011,+27 226902267
+25,Nelson Nkosi,59,Female,Rural,"Johannesburg, South Africa",Private,30883,39932,Formally Employed,499,800530298901,+27 737624781
+26,Nelson Zulu,33,Female,Rural,"Pretoria, South Africa",Government,20246,30601,Formally Employed,737,881121803411,+27 832498271
+27,Nomvula Pillay,59,Male,Urban,"Port Elizabeth, South Africa",Mining,19285,39301,Formally Employed,840,990130649100,+27 179880663
+29,Pieter Dlamini,53,Female,Urban,"Cape Town, South Africa",Mining,3415,36587,Formally Employed,404,881206089910,+27 646109432
+30,Nokuthula Nkosi,27,Female,Rural,"Johannesburg, South Africa",Government,45567,10047,Formally Employed,529,790701195611,+27 701254383
+31,Zanele Zulu,22,Female,Urban,"Johannesburg, South Africa",Private,22495,33706,Formally Employed,797,890217942711,+27 183102655
+32,Nokuthula Masuku,53,Male,Rural,"Pretoria, South Africa",Private,47113,18069,Formally Employed,336,910917555410,+27 485178941
+34,Sipho Masuku,49,Male,Rural,"Bloemfontein, South Africa",Private,6774,26708,Formally Employed,539,800928340601,+27 426770375
+35,Jacob Nkosi,40,Male,Rural,"Port Elizabeth, South Africa",Private,10208,30015,Formally Employed,843,820521207900,+27 990613968
+36,Leanne Zulu,47,Female,Rural,"Port Elizabeth, South Africa",Government,29050,5928,Formally Employed,772,941201962901,+27 402226170
+40,Nokuthula Pillay,24,Male,Rural,"Pretoria, South Africa",Government,49888,34960,Formally Employed,497,950805974910,+27 487325825
+41,Nelson Botha,46,Male,Rural,"Polokwane, South Africa",Government,21189,35971,Formally Employed,370,920702267701,+27 521307647
+42,Elize Dlamini,22,Female,Rural,"Johannesburg, South Africa",Mining,30084,13519,Formally Employed,622,960719307701,+27 858863061
+46,Sipho Mahlangu,44,Female,Rural,"Polokwane, South Africa",Government,8362,15677,Formally Employed,822,820714964900,+27 558713502
+48,Jacob Mokoena,40,Female,Rural,"Durban, South Africa",Mining,40120,33083,Formally Employed,502,851213999211,+27 336750081
+52,Nokuthula van der Merwe,22,Female,Rural,"Port Elizabeth, South Africa",Government,7773,12160,Formally Employed,385,831124366201,+27 258159969
+53,Elize Zulu,45,Female,Rural,"Polokwane, South Africa",Mining,29757,27230,Formally Employed,407,820426305610,+27 176601906
+54,Elize Mahlangu,26,Male,Urban,"Cape Town, South Africa",Private,33966,6836,Formally Employed,829,850420790601,+27 360133505
+57,Pieter Sithole,49,Female,Urban,"Polokwane, South Africa",Government,9152,3501,Formally Employed,786,880907202500,+27 224986091
+59,Jacob van der Merwe,56,Female,Rural,"Durban, South Africa",Government,34269,30664,Formally Employed,488,960202903201,+27 582109375
+60,Zanele van der Merwe,41,Male,Urban,"Polokwane, South Africa",Mining,28057,34338,Formally Employed,359,910617129610,+27 296730956
+62,Nelson Mokoena,47,Male,Rural,"Polokwane, South Africa",Private,10135,24238,Formally Employed,322,910108119811,+27 245911815
+65,Zanele Pillay,38,Female,Urban,"Pretoria, South Africa",Private,34579,31572,Formally Employed,679,870314018111,+27 529456424
+66,Nelson Sithole,29,Female,Urban,"Johannesburg, South Africa",Mining,22610,21527,Formally Employed,455,950407627710,+27 877422106
+67,Thabo Botha,21,Female,Rural,"Cape Town, South Africa",Mining,18059,19146,Formally Employed,698,861201409411,+27 202607448
+68,Sipho Dlamini,58,Male,Urban,"Pretoria, South Africa",Government,14199,19173,Formally Employed,493,880412325200,+27 779163065
+69,Abongile Pillay,44,Female,Rural,"Johannesburg, South Africa",Mining,36145,10485,Formally Employed,606,841227140910,+27 540157340
+73,Johannes Pillay,51,Female,Urban,"Polokwane, South Africa",Mining,42715,21689,Formally Employed,421,901011789400,+27 833745280
+74,Nokuthula Mokoena,53,Female,Urban,"Durban, South Africa",Government,42052,13094,Formally Employed,802,951205677300,+27 110682336
+75,Nokuthula Mahlangu,33,Female,Urban,"Bloemfontein, South Africa",Private,10897,16618,Formally Employed,502,950108590511,+27 427767431
+79,Pieter Pillay,23,Male,Urban,"Polokwane, South Africa",Private,7500,21253,Formally Employed,688,870110573211,+27 480023326
+81,Zanele Dlamini,33,Male,Urban,"Cape Town, South Africa",Mining,13455,6948,Formally Employed,603,950212479701,+27 554254494
+82,Leanne Sithole,44,Male,Rural,"Port Elizabeth, South Africa",Mining,44546,15692,Formally Employed,425,980611195300,+27 494998926
+83,Pieter Mahlangu,60,Male,Urban,"Durban, South Africa",Private,48240,25454,Formally Employed,564,990513140210,+27 632039590
+84,Nomvula van der Merwe,29,Female,Urban,"Cape Town, South Africa",Mining,28836,18896,Formally Employed,528,830917469100,+27 593914752
+87,Thabo van der Merwe,27,Female,Rural,"Pretoria, South Africa",Private,23655,32564,Formally Employed,464,920326749211,+27 756752765
+88,Nelson van der Merwe,52,Male,Urban,"Polokwane, South Africa",Private,42393,12261,Formally Employed,332,890322812510,+27 317342071
+91,Elize Sithole,27,Male,Rural,"Johannesburg, South Africa",Government,49112,5202,Formally Employed,403,950528824211,+27 589152442
+92,Zanele Sithole,27,Female,Rural,"Durban, South Africa",Government,4064,29049,Formally Employed,435,941028583601,+27 249009311
+95,Pieter van der Merwe,20,Male,Rural,"Polokwane, South Africa",Mining,12730,13203,Formally Employed,469,941220656011,+27 636773643
+96,Elize Nkosi,50,Male,Rural,"Bloemfontein, South Africa",Mining,23698,28241,Formally Employed,428,900905577301,+27 466240949
+98,Nokuthula Sithole,57,Female,Rural,"Cape Town, South Africa",Government,26471,35979,Formally Employed,446,940916787711,+27 224767347
+99,Nomvula Zulu,50,Female,Urban,"Bloemfontein, South Africa",Mining,48873,24449,Formally Employed,584,870706069200,+27 345548704
+100,Thabo Mahlangu,30,Male,Urban,"Durban, South Africa",Government,25965,24857,Formally Employed,410,831003549601,+27 949695015
+102,Abongile van der Merwe,31,Male,Urban,"Johannesburg, South Africa",Government,26272,17094,Formally Employed,612,890716398000,+27 422219084
+104,Abongile Mahlangu,27,Male,Rural,"Pretoria, South Africa",Mining,36184,7697,Formally Employed,496,791118378400,+27 447720580
+105,Leanne Nkosi,27,Male,Rural,"Johannesburg, South Africa",Government,17173,21692,Formally Employed,466,880602551810,+27 380157803
+106,Nelson Pillay,53,Female,Rural,"Cape Town, South Africa",Government,34082,30793,Formally Employed,506,811217072110,+27 816680246
+108,Elize Naidoo,41,Female,Rural,"Cape Town, South Africa",Mining,5171,2775,Formally Employed,771,920427378411,+27 806218395
+110,Nomvula Dlamini,53,Male,Urban,"Port Elizabeth, South Africa",Government,47483,35683,Formally Employed,416,990411777510,+27 955679215
+111,Thabo Nkosi,24,Male,Rural,"Johannesburg, South Africa",Government,38070,27519,Formally Employed,456,840403774611,+27 507644749
+113,Pieter Mokoena,47,Male,Urban,"Johannesburg, South Africa",Mining,14704,16077,Formally Employed,669,800231154100,+27 412540825
+114,Jacob Dlamini,33,Male,Rural,"Bloemfontein, South Africa",Mining,35257,37102,Formally Employed,335,860217394611,+27 404012657
+117,Zanele Mahlangu,47,Male,Urban,"Cape Town, South Africa",Mining,37248,4946,Formally Employed,312,890730240311,+27 761219230
+118,Jacob Naidoo,58,Female,Rural,"Johannesburg, South Africa",Mining,22968,21427,Formally Employed,793,921218330210,+27 100006557
+124,Leanne Naidoo,20,Female,Rural,"Cape Town, South Africa",Government,14798,26249,Formally Employed,628,950403241101,+27 287625830
+125,Sipho Sithole,49,Male,Urban,"Polokwane, South Africa",Government,41599,24864,Formally Employed,554,970409003101,+27 443447147
+136,Sipho van der Merwe,21,Male,Rural,"Port Elizabeth, South Africa",Private,26483,35815,Formally Employed,345,790417934501,+27 347351821
+144,Abongile Naidoo,20,Female,Rural,"Bloemfontein, South Africa",Mining,25707,29766,Formally Employed,522,841103484300,+27 672376845
+145,Nokuthula Zulu,24,Male,Urban,"Port Elizabeth, South Africa",Government,25682,30635,Formally Employed,555,970517198210,+27 319451075
+146,Abongile Nkosi,21,Female,Urban,"Pretoria, South Africa",Mining,23675,17778,Formally Employed,731,820527716101,+27 391654822
+149,Abongile Mokoena,26,Female,Urban,"Port Elizabeth, South Africa",Government,41858,12762,Formally Employed,790,940410790811,+27 530460275
+155,Nelson Masuku,28,Male,Urban,"Bloemfontein, South Africa",Government,32724,31415,Formally Employed,627,790717014500,+27 980446852
+161,Pieter Zulu,58,Female,Rural,"Johannesburg, South Africa",Mining,48973,28211,Formally Employed,413,880807747700,+27 781928844
+162,Jacob Mahlangu,25,Female,Rural,"Durban, South Africa",Government,22022,35959,Formally Employed,492,791011811500,+27 107869981
+166,Abongile Zulu,60,Male,Rural,"Durban, South Africa",Government,47135,12172,Formally Employed,325,820814217101,+27 842218411
+169,Johannes Nkosi,57,Female,Urban,"Cape Town, South Africa",Mining,23035,28100,Formally Employed,664,850530237710,+27 147270649
+172,Leanne Masuku,36,Male,Urban,"Bloemfontein, South Africa",Mining,5871,12977,Formally Employed,602,880513116300,+27 605259812
+183,Johannes Dlamini,45,Male,Rural,"Johannesburg, South Africa",Private,14435,29931,Formally Employed,709,850913112600,+27 727436532
+190,Thabo Masuku,56,Female,Rural,"Cape Town, South Africa",Government,8643,17120,Formally Employed,677,850731176611,+27 189977100
+199,Jacob Pillay,33,Male,Urban,"Pretoria, South Africa",Mining,27607,9547,Formally Employed,801,980110362511,+27 897837481
+203,Sipho Pillay,25,Male,Urban,"Durban, South Africa",Private,42104,5657,Formally Employed,308,960102854501,+27 243678903
+205,Nelson Dlamini,37,Female,Rural,"Port Elizabeth, South Africa",Mining,16544,35536,Formally Employed,496,820718319010,+27 605288471
+208,Thabo Zulu,20,Male,Urban,"Port Elizabeth, South Africa",Mining,24993,28907,Formally Employed,848,870220806401,+27 489328066
+219,Nomvula Botha,27,Male,Urban,"Bloemfontein, South Africa",Government,4159,16555,Formally Employed,437,870925042800,+27 643922959
+229,Sipho Mokoena,43,Male,Rural,"Pretoria, South Africa",Private,47540,37610,Formally Employed,469,910323456300,+27 890795515
+232,Johannes Naidoo,34,Male,Rural,"Durban, South Africa",Mining,45855,29952,Formally Employed,514,870527090511,+27 157064861
+233,Johannes Mokoena,38,Female,Rural,"Cape Town, South Africa",Private,8217,7931,Formally Employed,792,920313045400,+27 465658100
+236,Johannes Botha,31,Female,Urban,"Port Elizabeth, South Africa",Private,23382,3560,Formally Employed,305,930517886610,+27 980947956
+240,Nomvula Masuku,46,Male,Urban,"Polokwane, South Africa",Government,8943,18266,Formally Employed,621,960403386810,+27 697797057
+244,Abongile Dlamini,21,Female,Urban,"Durban, South Africa",Government,22530,12655,Formally Employed,379,930729688200,+27 666449918
+248,Thabo Mokoena,52,Male,Rural,"Durban, South Africa",Private,16506,14507,Formally Employed,827,911213464910,+27 932249103
+251,Thabo Naidoo,54,Male,Rural,"Cape Town, South Africa",Private,39609,19133,Formally Employed,768,940516589610,+27 531000009
+252,Sipho Botha,44,Male,Rural,"Durban, South Africa",Private,49579,37167,Formally Employed,507,791017851810,+27 802457788
+256,Zanele Nkosi,34,Female,Rural,"Johannesburg, South Africa",Private,33269,30462,Formally Employed,321,870113878200,+27 499917722
+261,Elize Mokoena,55,Female,Urban,"Pretoria, South Africa",Private,11490,37147,Formally Employed,572,811112367410,+27 876462910
+262,Elize Botha,38,Female,Rural,"Johannesburg, South Africa",Mining,8889,35056,Formally Employed,647,860126565111,+27 608576752
+267,Leanne Pillay,20,Female,Rural,"Bloemfontein, South Africa",Private,49369,6370,Formally Employed,341,970127983001,+27 417591821
+269,Nomvula Nkosi,41,Male,Urban,"Durban, South Africa",Mining,16836,27895,Formally Employed,668,910410126600,+27 303793050
+283,Nomvula Naidoo,38,Male,Rural,"Johannesburg, South Africa",Private,38737,28057,Formally Employed,820,920505273301,+27 265245198
+284,Zanele Masuku,45,Female,Rural,"Port Elizabeth, South Africa",Government,30213,3407,Formally Employed,434,881026038100,+27 305757585
+287,Pieter Masuku,31,Female,Rural,"Polokwane, South Africa",Mining,39316,9692,Formally Employed,573,960923694411,+27 999465037
+290,Thabo Pillay,20,Male,Rural,"Johannesburg, South Africa",Government,46572,12684,Formally Employed,789,870517751811,+27 201117848
+297,Johannes Zulu,38,Female,Urban,"Cape Town, South Africa",Government,40716,35018,Formally Employed,741,880919497501,+27 747612893
+302,Abongile Botha,52,Female,Rural,"Cape Town, South Africa",Government,39792,19014,Formally Employed,319,960926062811,+27 536516630
+339,Leanne Dlamini,57,Female,Urban,"Johannesburg, South Africa",Private,12558,9549,Formally Employed,532,930616215311,+27 579246735
+340,Jacob Sithole,60,Male,Urban,"Bloemfontein, South Africa",Mining,35706,31671,Formally Employed,490,870815937201,+27 657796118
+342,Sipho Zulu,37,Male,Rural,"Bloemfontein, South Africa",Mining,40051,11409,Formally Employed,848,890115832400,+27 282262094
+350,Nelson Mahlangu,31,Male,Urban,"Pretoria, South Africa",Private,30064,29873,Formally Employed,550,850412923210,+27 455508649
+362,Abongile Masuku,37,Female,Rural,"Bloemfontein, South Africa",Private,3614,13562,Formally Employed,646,940102624810,+27 775069237
+365,Johannes Masuku,38,Male,Urban,"Durban, South Africa",Mining,4585,9132,Formally Employed,710,840202833601,+27 586279566
+380,Elize van der Merwe,58,Female,Rural,"Cape Town, South Africa",Private,27768,25126,Formally Employed,704,840427045511,+27 925883500
+411,Elize Pillay,46,Female,Urban,"Pretoria, South Africa",Government,15168,29112,Formally Employed,630,830502828000,+27 333299526
+420,Johannes Sithole,44,Male,Urban,"Pretoria, South Africa",Government,15023,14124,Formally Employed,338,800117599410,+27 735660988
+449,Nokuthula Naidoo,50,Male,Urban,"Johannesburg, South Africa",Private,13457,19780,Formally Employed,456,930502440211,+27 602381848
+513,Thabo Dlamini,45,Male,Rural,"Pretoria, South Africa",Mining,20982,17285,Formally Employed,770,960221988601,+27 824396640
+696,Leanne Mokoena,56,Female,Urban,"Johannesburg, South Africa",Mining,23278,10603,Formally Employed,726,910504706601,+27 172518965
+698,Abongile Sithole,54,Male,Rural,"Pretoria, South Africa",Mining,37879,36153,Formally Employed,379,980121467911,+27 842345614
+810,Leanne Botha,57,Female,Urban,"Cape Town, South Africa",Mining,19234,24580,Formally Employed,625,900107474501,+27 290578469

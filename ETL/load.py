@@ -20,8 +20,6 @@ class Household(Base):
     expenses = Column(Integer)
     job_status = Column(String)
     credit_score = Column(Integer)
-    loan_amount_requested = Column(Integer)
-    loan_repayment_months = Column(Integer)
     sa_id = Column(String)
     phone_number = Column(String)
 
@@ -32,7 +30,6 @@ class AnalysisResult(Base):
     household_id = Column(Integer)
     disposable_income = Column(Integer)
     debt_to_income_ratio = Column(Float)
-    loan_status  = Column(String)
 
 engine = create_engine('sqlite:///HouseHold_data.db', echo=True)
 
@@ -42,7 +39,7 @@ Session = sessionmaker(bind=engine)
 session = Session()
 
 def load_data(df):
-    for index, row in df.iterrows():
+    for _, row in df.iterrows():
         household = Household(
             household_id=row['household_id'],
             full_name=row['full_name'],
@@ -55,30 +52,27 @@ def load_data(df):
             expenses=row['expenses'],
             job_status=row['job_status'],
             credit_score=row['credit_score'],
-            loan_amount_requested=row['loan_amount_requested'],
-            loan_repayment_months=row['loan_repayment_months'],
             sa_id=row['sa_id'],
             phone_number=row['phone_number']
         )
         session.add(household)
 
-    session.commit()
-
-    for index, row in df.iterrows():
+    for _, row in df.iterrows():
         disposable_income = row['income'] - row['expenses']
-        debt_to_income_ratio = row['loan_amount_requested'] / row['income'] if row['income'] != 0 else 0
-        
+        debt_to_income_ratio = (
+            row['expenses'] / row['income'] if row['income'] > 0 else None
+        )
         analysis_result = AnalysisResult(
             household_id=row['household_id'],
             disposable_income=disposable_income,
             debt_to_income_ratio=debt_to_income_ratio,
-            loan_status=row['loan_approval_status'],
         )
         session.add(analysis_result)
 
     session.commit()
 
-df = pd.read_csv('transformed_financial_data.csv')  
-load_data(df)
-
-session.close()
+if __name__ == "__main__":
+    df = pd.read_csv('transformed_financial_data.csv')
+    load_data(df)
+    session.close()
+    print("Data loaded successfully into the database.")
