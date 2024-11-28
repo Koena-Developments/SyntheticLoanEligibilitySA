@@ -4,13 +4,14 @@ from sqlalchemy import create_engine, Column, Integer, String, Float
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
+
 engine = create_engine('sqlite:///HouseHold_data.db')  
 Session = sessionmaker(bind=engine)
 session = Session()
 
 df = pd.read_sql('SELECT * FROM households', engine)
 
-random_applicants = df.sample(n=100, random_state=42)  
+random_applicants = df.sample(n=132, random_state=42)  
 
 random_applicants['loan_amount_requested'] = [random.uniform(10000, 100000) for _ in range(len(random_applicants))]
 
@@ -27,7 +28,6 @@ def loan_approval(row):
     else:
         return 'Rejected', 0, 0  
 
-# Apply loan approval logic
 random_applicants['loan_approval_status'], random_applicants['loan_repayment_period'], random_applicants['monthly_repayment'] = zip(*random_applicants.apply(loan_approval, axis=1))
 
 loan_engine = create_engine('sqlite:///loan_applicants.db')  
@@ -66,5 +66,9 @@ for _, row in random_applicants.iterrows():
 
 loan_applicant_session.commit() 
 loan_applicant_session.close()
+
+
+
+
 
 print(f"Loan applicants' results have been successfully stored in the 'loan_applicants.db' database.")
