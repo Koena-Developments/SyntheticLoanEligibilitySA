@@ -11,7 +11,7 @@ session = Session()
 
 df = pd.read_sql('SELECT * FROM households', engine)
 
-random_applicants = df.sample(n=132, random_state=42)  
+random_applicants = df.sample(n=130, random_state=42)  
 
 random_applicants['loan_amount_requested'] = [random.uniform(10000, 100000) for _ in range(len(random_applicants))]
 
@@ -22,13 +22,13 @@ random_applicants['debt_to_income_ratio'] = random_applicants['loan_amount_reque
 
 def loan_approval(row):
     if row['credit_score'] >= 700 and row['debt_to_income_ratio'] < 0.4 and row['disposable_income'] > 5000:
-        return 'Approved', 12, row['loan_amount_requested'] / 12
+        return 'Approved', 12, row['loan_amount_requested'] / 12, row['full_name']
     elif row['credit_score'] >= 650 and row['credit_score'] < 700 and row['debt_to_income_ratio'] < 0.5:
-        return 'Conditionally Approved', 24, row['loan_amount_requested'] / 24
+        return 'Conditionally Approved', 24, row['loan_amount_requested'] / 24, row['full_name']
     else:
-        return 'Rejected', 0, 0  
+        return 'Rejected', 0, 0, row['full_name']
 
-random_applicants['loan_approval_status'], random_applicants['loan_repayment_period'], random_applicants['monthly_repayment'] = zip(*random_applicants.apply(loan_approval, axis=1))
+random_applicants['loan_approval_status'], random_applicants['loan_repayment_period'], random_applicants['monthly_repayment'], random_applicants['full_name'] = zip(*random_applicants.apply(loan_approval, axis=1))
 
 loan_engine = create_engine('sqlite:///loan_applicants.db')  
 
@@ -39,12 +39,14 @@ class LoanApplicant(Base):
     
     id = Column(Integer, primary_key=True)
     household_id = Column(Integer)
+    full_name = Column(String)
     loan_approval_status = Column(String)
     loan_repayment_period = Column(Integer)
     monthly_repayment = Column(Float)
     disposable_income = Column(Float)
     debt_to_income_ratio = Column(Float)
     loan_amount_requested = Column(Float)
+    
 
 Base.metadata.create_all(loan_engine)  
 
@@ -54,6 +56,7 @@ loan_applicant_session = LoanApplicantSession()
 for _, row in random_applicants.iterrows():
     loan_applicant = LoanApplicant(
         household_id=row['household_id'],
+        full_name = row['full_name'],
         loan_approval_status=row['loan_approval_status'],
         loan_repayment_period=row['loan_repayment_period'],
         monthly_repayment=row['monthly_repayment'],
