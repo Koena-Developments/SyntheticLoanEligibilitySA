@@ -21,9 +21,9 @@ random_applicants['disposable_income'] = random_applicants['income'] - random_ap
 random_applicants['debt_to_income_ratio'] = random_applicants['loan_amount_requested'] / random_applicants['income']
 
 def loan_approval(row):
-    if row['credit_score'] >= 700 and row['debt_to_income_ratio'] < 0.4 and row['disposable_income'] > 5000:
+    if row['credit_score'] >= 700 and row['debt_to_income_ratio'] < 0.2 and row['disposable_income'] > 1000:
         return 'Approved', 12, row['loan_amount_requested'] / 12, row['full_name']
-    elif row['credit_score'] >= 650 and row['credit_score'] < 700 and row['debt_to_income_ratio'] < 0.5:
+    elif row['credit_score'] >= 650 and row['credit_score'] < 700 and row['debt_to_income_ratio'] < 0.2:
         return 'Conditionally Approved', 24, row['loan_amount_requested'] / 24, row['full_name']
     else:
         return 'Rejected', 0, 0, row['full_name']
@@ -69,9 +69,5 @@ for _, row in random_applicants.iterrows():
 
 loan_applicant_session.commit() 
 loan_applicant_session.close()
-
-
-
-
 
 print(f"Loan applicants' results have been successfully stored in the 'loan_applicants.db' database.")
