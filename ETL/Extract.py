@@ -63,7 +63,7 @@ def generate_data():
             'address': generate_sa_address(),
             'industry': random.choice(['Government', 'Mining', 'Private']),
             'income': random.randint(3000, 50000),
-            'expenses': random.randint(2000, 40000),
+            'expenses': random.randint(2000, 10000),
             'job_status': 'Formally Employed',
             'credit_score': random.randint(300, 850),
             'sa_id': generate_sa_id(),

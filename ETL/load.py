@@ -18,19 +18,13 @@ class Household(Base):
     industry = Column(String)
     income = Column(Integer)
     expenses = Column(Integer)
+    disposable_income = Column(Integer)
+    debt_to_income_ratio = Column(Float)
     job_status = Column(String)
     credit_score = Column(Integer)
     sa_id = Column(String)
     phone_number = Column(String)
-
-class AnalysisResult(Base):
-    __tablename__ = 'analysis_results'
     
-    id = Column(Integer, primary_key=True)
-    household_id = Column(Integer)
-    disposable_income = Column(Integer)
-    debt_to_income_ratio = Column(Float)
-
 engine = create_engine('sqlite:///HouseHold_data.db', echo=True)
 
 Base.metadata.create_all(engine)
@@ -50,6 +44,8 @@ def load_data(df):
             industry=row['industry'],
             income=row['income'],
             expenses=row['expenses'],
+            disposable_income=row['disposable_income'],
+            debt_to_income_ratio=row['debt_to_income_ratio'],
             job_status=row['job_status'],
             credit_score=row['credit_score'],
             sa_id=row['sa_id'],
@@ -57,17 +53,6 @@ def load_data(df):
         )
         session.add(household)
 
-    for _, row in df.iterrows():
-        disposable_income = row['income'] - row['expenses']
-        debt_to_income_ratio = (
-            row['expenses'] / row['income'] if row['income'] > 0 else None
-        )
-        analysis_result = AnalysisResult(
-            household_id=row['household_id'],
-            disposable_income=disposable_income,
-            debt_to_income_ratio=debt_to_income_ratio,
-        )
-        session.add(analysis_result)
 
     session.commit()
 

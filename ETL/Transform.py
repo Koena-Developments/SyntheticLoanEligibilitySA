@@ -24,7 +24,7 @@ def clean_data(df):
             df[col] = df[col].fillna(df[col].mode()[0])
 
     df['income'] = df['income'].apply(lambda x: min(x, 50000))
-    df['expenses'] = df['expenses'].apply(lambda x: min(x, 40000))
+    df['expenses'] = df['expenses'].apply(lambda x: min(x, 10000))
     df['credit_score'] = df['credit_score'].apply(lambda x: min(max(x, 300), 850))
 
     return df
