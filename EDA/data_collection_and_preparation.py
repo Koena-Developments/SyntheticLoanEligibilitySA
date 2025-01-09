@@ -22,9 +22,9 @@ if 'disposable_income' not in random_applicants.columns or 'debt_to_income_ratio
 
 
 def loan_approval(row):
-    if row['credit_score'] >= 650 and row['debt_to_income_ratio'] < 0.5 and row['disposable_income'] > 1000:
+    if row['credit_score'] >= 650 and row['debt_to_income_ratio'] < 0.7 and row['disposable_income'] > 10000:
         return 'Approved', 12, row['loan_amount_requested'] / 12, row['full_name']
-    elif row['credit_score'] >= 500 and row['debt_to_income_ratio'] < 0.2:
+    elif row['credit_score'] >= 500 and row['debt_to_income_ratio'] < 0.4 and row['disposable_income'] > 3000:
         return 'Conditionally Approved', 24, row['loan_amount_requested'] / 24, row['full_name']
     else:
         return 'Rejected', 0, 0, row['full_name']
@@ -44,6 +44,7 @@ class LoanApplicant(Base):
     loan_approval_status = Column(String)
     loan_repayment_period = Column(Integer)
     monthly_repayment = Column(Float)
+    credit_score=Column(Integer)
     disposable_income = Column(Float)
     debt_to_income_ratio = Column(Float)
     loan_amount_requested = Column(Float)
@@ -61,6 +62,7 @@ for _, row in random_applicants.iterrows():
         loan_approval_status=row['loan_approval_status'],
         loan_repayment_period=row['loan_repayment_period'],
         monthly_repayment=row['monthly_repayment'],
+        credit_score=row['credit_score'],
         disposable_income=row['disposable_income'],
         debt_to_income_ratio=row['debt_to_income_ratio'],
         loan_amount_requested=row['loan_amount_requested']

@@ -1,6 +1,8 @@
 import sqlite3
 import pandas as pd
 import seaborn as sns
+import matplotlib
+matplotlib.use('TkAgg') 
 import matplotlib.pyplot as plt
 
 conn = sqlite3.connect("loan_applicants.db")
@@ -14,7 +16,7 @@ loan_data['income_group'] = pd.cut(
 )
 
 
-income_approval = loan_data.groupby(['income_group', 'loan_approval_status']).size().unstack(fill_value=0)
+income_approval = loan_data.groupby(['income_group', 'loan_approval_status'], observed=False).size().unstack(fill_value=0)
 income_approval.plot(kind='bar', stacked=True)
 plt.title("Income Group vs Loan Approval Status")
 plt.xlabel("Income Group")
